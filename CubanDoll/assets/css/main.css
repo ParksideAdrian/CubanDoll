@@ -67,7 +67,7 @@
 	}
 
 	body {
-		background: #000000;		 /* Change color of the header / properties */
+		background: transparent;		 /* Change color of the header / properties */
 		height: 100%;
 		min-width: 320px;
 	}
@@ -1744,13 +1744,13 @@
 		}
 
 	body {
-		padding-top: 3em;
+		padding-top: 0;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			body {
-				padding-top: 2.5em;
+				padding-top: 0;
 			}
 
 		}
