@@ -2108,18 +2108,18 @@
 /* One */
 
 	#one {
-<<<<<<< HEAD
+
 		background: url("../../images/cubangif02.gif");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
 		text-align: justify;
-=======
+
 		background: url("images/black.jpg"), url("../../images/cubangif03.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
->>>>>>> f412f4161dfccc87b1ecdf094b01e4efbae72e4c
+
 		/*opacity: 0.15;*/
 	}
 
