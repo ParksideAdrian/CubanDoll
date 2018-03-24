@@ -2104,7 +2104,7 @@
 /* One */
 
 	#one {
-		background: url("images/black.jpg"), url("../../images/cubangif02.gif");
+		background: url("images/black.jpg"), url("../../images/cubangif03.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
