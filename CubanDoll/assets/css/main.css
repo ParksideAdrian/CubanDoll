@@ -1882,7 +1882,7 @@
 			}
 
 			.main.style3.primary {
-				background: #58faf4;
+				background: #000000;
 			}
 
 			.main.style3.secondary {
@@ -2125,6 +2125,18 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+/*Tour*/
+	#tour{
+
+		color: pink;
+		font-size: 24px;
+		font-weight: 100;
+		font-family: serif;
+
+
+	}
+
 
 /* Contact */
 
