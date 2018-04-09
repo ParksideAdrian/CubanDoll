@@ -67,7 +67,7 @@
 	}
 
 	body {
-		background: #000000;		 /* Change color of the header / properties */
+		background: transparent;		 /* Change color of the header / properties */
 		height: 100%;
 		min-width: 320px;
 	}
@@ -1020,6 +1020,7 @@
 
 	header {
 		margin-bottom: 1em;
+		padding-top: 10px;
 	}
 
 		header p {
@@ -1671,8 +1672,10 @@
 		top: 0;
 		width: 100%;
 		background: rgb(0,0,0,0);
-		height: 3em;
+		height: 5em;
+
 		line-height: 3em;
+
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0);
 
 	}
@@ -1683,6 +1686,7 @@
 			top: 0;
 			height: 3em;
 			line-height: 3em;
+			padding-top: 10px;
 			cursor: default;
 		}
 
@@ -1882,7 +1886,7 @@
 			}
 
 			.main.style3.primary {
-				background: #58faf4;
+				background: #000000;
 			}
 
 			.main.style3.secondary {
@@ -2104,17 +2108,22 @@
 /* One */
 
 	#one {
-		background: url("images/black.jpg"), url("../../images/cubangif02.gif");
+
+		background: url("../../images/cubangif02.gif");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		text-align: justify;
+
+		background: url("images/black.jpg"), url("../../images/cubangif03.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+
 		/*opacity: 0.15;*/
 	}
 
-	#one album01{
-		position: absolute;
-		size:128px, 128px;
-	}
+
 
 
 /* Two */
@@ -2125,6 +2134,18 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+/*Tour*/
+	#tour{
+
+		color: pink;
+		font-size: 24px;
+		font-weight: 100;
+		font-family: serif;
+
+
+	}
+
 
 /* Contact */
 
